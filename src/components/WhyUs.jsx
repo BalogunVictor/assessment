@@ -3,8 +3,8 @@ import { AiOutlineClockCircle } from 'react-icons/ai'
 
 const WhyUs = () => {
   return (
-    <div className='relative flex flex-col justify-center items-center'>
-      <div className='absolute top-72 w-[950px] h-[547px] bg-white flex '>
+    <div className='relative flex flex-col justify-center items-center mb-16'>
+      <div className='absolute top-72 w-[950px] h-[400px] bg-white flex '>
         <div className='grid grid-cols-2 p-[50px]'>
           <div className='flex flex-col '>
             <h2>We provide full range global logistics solution</h2>
@@ -38,7 +38,7 @@ const WhyUs = () => {
       </div>
     <img src="/assests/Background.jpg" alt="/" />
 
-    <div className='pt-[500px] h-[143px] w-[700px] pb-10'>
+    <div className='pt-[350px] h-[143px] w-[700px] pb-10'>
       <div className='flex flex-col justify-center items-center '>
         <hr className='w-full h-1' />
         <div className='flex'>
