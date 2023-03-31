@@ -4,7 +4,11 @@ const WhatWeDo = () => {
   return (
     <div className='w-full h-[500px] flex justify-center items-center'>
     <div className='flex'>
-    <div className='w-[294] h-[131] flex justify-center items-start pr-8'>
+    <div className='w-[294] h-[131] flex flex-col justify-start items-start pr-8'>
+    <div className='flex w-[100px]  bg-[#F4F4F4] my-4'>
+    <div className='border-r-4 border-[#FFB629] mr-2'></div>
+    <p>What We Do</p>
+  </div>
       <h1>Safe & Reliable<br/> Cargo Solutions</h1>
     </div>
     <div className='grid grid-cols-2 gap-20 justify-center items-center'>

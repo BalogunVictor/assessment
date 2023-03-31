@@ -10,9 +10,14 @@ const Contact = () => {
       <div className='flex h-[500px]'>
         {/* ////////////////////// */}
         <div className='w-[400px] '>
+        <div className='flex w-[100px] bg-[#041C3780] my-4'>
+        <div className='border-r-4 border-[#FFB629] mr-2'></div>
+        <p>Contact</p>
+      </div>
           <h2>Get in touch with us</h2>
-          <p>Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value.</p>
-            <div className='flex justify-center items-center'>
+          <p className='py-4'>Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value.</p>
+
+            <div className='flex justify-center items-center mr-[90px]'>
             <div className='h-[63px] w-[63px] bg-[#111C55] rounded-full flex justify-center items-center'>
               <BiEnvelope 
               size={20}
@@ -23,7 +28,7 @@ const Contact = () => {
             contact@logistics.com</p>
           </div>
 
-          <div className='flex justify-center items-center py-4'>
+          <div className='flex justify-center items-center mr-[140px] py-4'>
             <div className='h-[63px] w-[63px] bg-[#111C55] rounded-full flex justify-center items-center'>
               <BsTelephone
               size={20}
@@ -34,7 +39,7 @@ const Contact = () => {
             <br/>(00) 112 365 489</p>
           </div>
 
-          <div className='flex justify-center items-center'>
+          <div className='flex justify-center items-center mr-[100px]'>
           <div className='h-[63px] w-[63px] bg-[#111C55] rounded-full flex justify-center items-center'>
             <AiOutlineClockCircle 
             size={20}

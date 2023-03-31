@@ -4,6 +4,10 @@ const Customer = () => {
   return (
       <div className='flex w-full h-[600px] flex-col justify-center items-center'>
         <div className='flex w-[1000px] h-[542px] flex-col justify-center'>
+        <div className='flex w-[100px]  bg-[#F4F4F4] my-4'>
+        <div className='border-r-4 border-[#FFB629] mr-2'></div>
+        <p>Testimonial</p>
+      </div>
           <div className='flex justify-between items-center'>
             <h2>What Our Customer Say</h2>
             <div className='flex gap-2'>

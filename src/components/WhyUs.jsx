@@ -7,6 +7,10 @@ const WhyUs = () => {
       <div className='absolute top-72 w-[950px] h-[400px] bg-white flex '>
         <div className='grid grid-cols-2 p-[50px]'>
           <div className='flex flex-col '>
+          <div className='flex w-[70px]  bg-[#F4F4F4] my-4'>
+          <div className='border-r-4 border-[#FFB629] mr-2'></div>
+          <p>Why Us</p>
+        </div>
             <h2>We provide full range global logistics solution</h2>
             <p className='py-6'>Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition.</p> 
             <p>Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
