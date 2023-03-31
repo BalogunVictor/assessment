@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
+
+html{
+  font-family: 'Rubik', sans-serif;
+}
 
 @layer base {
   h1, h2, h3, h4, h5, h6 {
@@ -9,7 +14,7 @@
   }
  
   h1 {
-    @apply text-4xl sm:text-5xl md:text-6xl 
+    @apply text-4xl sm:text-5xl md:text-6xl font-[Rubik]
   }
 
   h2 {
